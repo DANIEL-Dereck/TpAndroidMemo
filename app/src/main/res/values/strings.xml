@@ -2,5 +2,6 @@
     <string name="app_name">memo</string>
     <string name="ok">OK</string>
     <string name="hint">Saisir un mémo ...</string>
-    <string name="tif">THIS IS FRAGMENT !!!</string>
+    <string name="no_match">Aucune description trouver</string>
+    <string name="back_to_the_futur">Retour</string>
 </resources>
