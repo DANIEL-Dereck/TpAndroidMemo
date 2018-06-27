@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base">0dp</dimen>
+    <dimen name="txt">18sp</dimen>
+    <dimen name="menu_height">64dp</dimen>
+    <dimen name="padding_base">8dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <EditText
+            android:id="@+id/txt_add_item"
+            android:layout_width="@dimen/base"
+            android:layout_height="@dimen/menu_height"
+            android:textSize="@dimen/txt"
+            android:maxLength="30"
+            android:hint="@string/hint"
+            android:background="@color/colorBackgroundTxt"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn_add_item"
+            />
+
+        <Button
+            android:id="@+id/btn_add_item"
+            android:text="@string/ok"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorExoBtn"
+            android:layout_width="@dimen/menu_height"
+            android:layout_height="@dimen/base"
+            android:textSize="@dimen/txt"
+            android:onClick="addItem"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+</android.support.constraint.ConstraintLayout>
