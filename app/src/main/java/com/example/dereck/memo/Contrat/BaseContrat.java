@@ -21,14 +21,14 @@ public final class BaseContrat
         public static final String COLUMN_TEXT = "text";
         public static final String COLUMN_STATE = "state";
 
-        //Create and delete
-
+        // Create table
         public static final String CREATE_TABLE = BaseContrat.CREATE + TABLE_MEMO + " ( "
                         + _ID + " INTEGER PRIMARY KEY AUTOINCREMENT , "
                         + COLUMN_TEXT + " TEXT "
 //                        + " , " + COLUMN_STATE + " BOOL "
                         + ");";
 
+        // Delete table
         public static final String DROP_TABLE = BaseContrat.DROP + TABLE_MEMO + ";";
 
 
