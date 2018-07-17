@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
 
@@ -12,5 +11,4 @@
     <color name="colorExoBtn">#a5362b</color>
     <color name="colorBackgroundTxt">#95bce5</color>
     <color name="colorBackgroundDetail">#b5d4f1</color>
-
 </resources>
